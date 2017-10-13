@@ -2,14 +2,21 @@
 @{
   Layout = "_Layout";
 }
-
-<h1>Add New Contact</h1>
-<br>
-<form action="/contact/new" method="post">
-  Full Name : <input type="text" name="full-name" placeholder="full name">
-  Contnact No : <input type="number" name="contanct-no" placeholder="Number">
-  Address : <input type="text" name="address" placeholder="Address with Zipcode">
-  <button type="submit" name="button">Add Contact</button>
-</form>
-<br>
-<p><a href="/">Back Home</a></p>
+<div class="container">
+  <h1>Add New Contact</h1>
+  <br>
+  <form action="/contact/new" method="post">
+    Full Name : <input type="text" name="full-name" placeholder="full name">
+    <br>
+    <br>
+    Contnact No : <input type="number" name="contanct-no" placeholder="Number">
+    <br>
+    <br>
+    Address : <input type="text" name="address" placeholder="Address with Zipcode">
+    <br>
+    <br>
+    <button type="submit" class="btn btn-danger" name="button">Add Contact</button>
+  </form>
+  <br>
+  <p><a href="/">Back Home</a></p>
+</div>

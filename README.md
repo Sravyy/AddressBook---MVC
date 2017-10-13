@@ -27,11 +27,11 @@ _No known bugs_
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_C#_
-_.Net Framework_
-_MVC_
+* _HTML_
+* _Css_
+* _C#_
+* _.Net Framework_
+* _MVC_
 
 ### License
 

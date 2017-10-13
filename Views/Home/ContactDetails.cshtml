@@ -2,13 +2,15 @@
   Layout = "_Layout";
 }
 
-<h2>Here are the Contact details  :</h2>
-@* of @Model["contact"].GetName() *@
+<div class="container">
+  <h2>Here are the Contact details of @Model.GetName().ToUpper() :</h2>
 
-<h3>Name : @Model.GetName()</h3>
-<h3>Contact : @Model.GetContact()</h3>
-<h3>Address : @Model.GetAddress()</h3>
 
-<h3><a href="/addContact">Add Another Contact</a></h3>
+  <h3>Name : @Model.GetName()</h3>
+  <h3>Contact : @Model.GetContact()</h3>
+  <h3>Address : @Model.GetAddress()</h3>
 
-<p><a href='/'>Return to Home Page</a></p>
+  <h3><a href="/addContact">Add Another Contact</a></h3>
+
+  <p><a href='/'>Return to Home Page</a></p>
+</div>
